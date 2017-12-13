@@ -22,12 +22,12 @@ var wss = new WebSocketServer({
     server: httpsServer
 });
 wss.on('connection', function(wsConnect) {
-    wssConnect.on('message', function(message) {
+    wsConnect.on('message', function(message) {
         console.log(message);
         if (message.type === 'utf8') {
             console.log('>> message content from client: ' + message.utf8Data)
             connection.sendUTF('[from server] ' + message.utf8Data)
         }
-        wssConnect.send('reply');
+        wsConnect.send('reply');
     });
 });
