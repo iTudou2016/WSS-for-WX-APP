@@ -1,14 +1,27 @@
 #!/usr/bin/env node
 
 'use strict';
+//File structure: 
+//0) config information treatment;
+//1) create https server;
+//2) create websocket server;
+//3) create telnet connection;
+//4) create websocket-telnet proxy;
+
 
 var info = require('./package.json');
 
 var path = require('path'),
-    socketio = require('socket.io'),
+    wsServer = require('ws').Server,
     express = require('express'),
-    http = require('http'),
+    https = require('https'),
+    fs = require('fs'),
     webtelnet = require('./webtelnet-proxy.js');
+
+const options = {
+  key: fs.readFileSync('test/fixtures/keys/agent2-key.pem'),
+  cert: fs.readFileSync('test/fixtures/keys/agent2-cert.pem')
+};
 
 var conf = {
   telnet: {
@@ -46,14 +59,22 @@ conf.telnet.port = parseInt(args._[1], 10);
 if(args.h) conf.telnet.host = args.h;
 if(args.w) conf.www = path.resolve(args.w);
 
-var app = express().use(express.static(conf.www));
-var httpserver = http.createServer(app);
-httpserver.listen(conf.web.port, conf.web.host, function(){
+//var app = express().use(express.static(conf.www));
+//var httpsserver = https.createServer(app);
+var httpsServer = https.createServer(options, (req,res) => {
+  res.writeHead(200);
+  res.end('hello world\n');
+});
+httpsServer.listen(conf.web.port, conf.web.host, function(){
   console.log('listening on ' + conf.web.host + ':' + conf.web.port);
 });
 
 // create socket io
-var io = socketio.listen(httpserver);
+//var io = socketio.listen(httpserver);
+// create websocket io
+var io = new WebSocket({
+	server: httpsServer
+});
 
 // create webtelnet proxy and bind to io
 var webtelnetd = webtelnet(io, conf.telnet.port, conf.telnet.host);
