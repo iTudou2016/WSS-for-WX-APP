@@ -1,0 +1,64 @@
+{
+  "_from": "webtelnet",
+  "_id": "webtelnet@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-u7pAkFzNS1eakttd6A5+oTqCcEE=",
+  "_location": "/webtelnet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "webtelnet",
+    "name": "webtelnet",
+    "escapedName": "webtelnet",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/webtelnet/-/webtelnet-1.1.0.tgz",
+  "_shasum": "bbba40905ccd4b579a92db5de80e7ea13a827041",
+  "_spec": "webtelnet",
+  "_where": "C:\\Users\\u393131\\Downloads\\node-v8.9.2-win-x86\\node-v8.9.2-win-x86",
+  "author": {
+    "name": "Raymond Xie",
+    "email": "rjfun.mobile@gmail.com"
+  },
+  "bin": {
+    "webtelnet": "./main.js"
+  },
+  "bugs": {
+    "url": "https://github.com/mudchina/webtelnet/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "express": "^4.13.4",
+    "iconv-lite": "^0.4.13",
+    "minimist": "^1.2.0",
+    "socket.io": "^1.4.4"
+  },
+  "deprecated": false,
+  "description": "WebTelnet is a proxy server to bridge websocket to telnet, enable visiting telnet servers with browsers",
+  "devDependencies": {},
+  "homepage": "https://github.com/mudchina/webtelnet#README.md",
+  "keywords": [
+    "telnet",
+    "webtelnet",
+    "proxy",
+    "mud",
+    "webmud"
+  ],
+  "license": "MIT",
+  "main": "./webtelnet-proxy.js",
+  "name": "webtelnet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudchina/webtelnet.git"
+  },
+  "scripts": {
+    "start": "node ./main.js"
+  },
+  "version": "1.1.0"
+}
