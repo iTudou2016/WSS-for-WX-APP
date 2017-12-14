@@ -10,6 +10,18 @@ const wsServer = require('ws').Server;
 //  cert: fs.readFileSync('test/fixtures/keys/agent2-cert.pem')
 //};
 
+const telnetconf {
+    host: '127.0.0.1',
+    port: 5555,	
+};
+const webconf {
+    host: '127.0.0.1',
+    port: 8080,	
+};
+const wsconf {
+    host: '127.0.0.1',
+    port: 6666,	
+};
 
 //web server
 var webSvr = http.createServer(function(req, res) {
@@ -18,8 +30,8 @@ var webSvr = http.createServer(function(req, res) {
     res.end('I am web server');
 });
 
-webSvr.listen(7007, function() {
-    console.log('web server running at port 7007.')
+webSvr.listen(webconf.port, function() {
+    console.log('web server running at port ' + webconf.port)
 });
 
 //websocket server
@@ -28,8 +40,8 @@ var wsSvr = http.createServer(function(req, res) {
     res.end('I am websocket server');
 });
 
-wsSvr.listen(7009, function() {
-    console.log('websocket start listening at port 7009.')
+wsSvr.listen(wsconf.port, function() {
+    console.log('websocket start listening at port '+ webconf.port)
 });
 
 var wss = new wsServer({
