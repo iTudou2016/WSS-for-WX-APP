@@ -1,7 +1,9 @@
 //index.js
 Page({
   data: {
-    text: "This is page data."
+    outString: "This is page data.",
+    inputCmd: "Input command.",
+    
   },
   onLoad: function(options) {
     // Do some initialize when page load.
