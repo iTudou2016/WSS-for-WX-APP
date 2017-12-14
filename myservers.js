@@ -10,17 +10,17 @@ const wsServer = require('ws').Server;
 //  cert: fs.readFileSync('test/fixtures/keys/agent2-cert.pem')
 //};
 
-const telnetconf {
+const telnetconf = {
     host: '127.0.0.1',
     port: 5555,	
 };
-const webconf {
+const webconf = {
     host: '127.0.0.1',
     port: 8080,	
 };
-const wsconf {
-    host: '127.0.0.1',
-    port: 6666,	
+const wsconf = {
+    host: '0.0.0.0',
+    port: 7777,	
 };
 
 //web server
@@ -41,18 +41,17 @@ var wsSvr = http.createServer(function(req, res) {
 });
 
 wsSvr.listen(wsconf.port, function() {
-    console.log('websocket start listening at port '+ webconf.port)
+    console.log('websocket start listening at port '+ wsconf.port)
 });
 
 var wss = new wsServer({
-	server: wsSvr
+    server: wsSvr
 });
 
 wss.on('connection', function(wsConnect) {
 
     wsConnect.on('message', function(message) {
         console.log(message);
-	console.log("hello again");
         wsConnect.send('reply: ' + message);
     });
 });
