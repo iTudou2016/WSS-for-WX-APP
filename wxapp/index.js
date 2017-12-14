@@ -33,6 +33,13 @@ Page({
     // Do something when page scroll
   },
   // Event handler.
+  
+  bindKeyInput: function(e) {
+    this.setData({
+      inputCmd: e.detail.value
+    })
+  },
+  
   viewTap: function() {
     this.setData({
       text: 'Set some data for updating view.'
@@ -40,6 +47,7 @@ Page({
       // this is setData callback
     })
   },
+  
   customData: {
     hi: 'MINA'
   }
