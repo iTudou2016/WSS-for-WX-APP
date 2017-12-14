@@ -1,10 +1,9 @@
-
 const http = require('http');
 const https = require('https');
-const express = require('express');
+//const express = require('express');
 const fs = require('fs');
 const wsServer = require('ws').Server;
-const wtproxy = require('./webtelnet-proxy.js');
+//const wtproxy = require('./webtelnet-proxy.js');
 
 //const options = {
 //  key: fs.readFileSync('test/fixtures/keys/agent2-key.pem'),
@@ -13,18 +12,21 @@ const wtproxy = require('./webtelnet-proxy.js');
 
 
 //web server
-var webServer = http.createServer(function(req, res) {});
+var webSvr = http.createServer(function(req, res) {
+    res.writeHead(200, {'Content-Type':'text/plain'});
+    res.end('I am web server');
+});
 
-webServer.listen(7007, function() {
-    console.log('server running')
+webSvr.listen(7007, function() {
+    console.log('web server running at port 7007.')
 });
 
 //websocket server
-var wsServer = http.createServer(function(req, res) {
+var wsSvr = http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type':'text/plain'});
     res.end('I am websocket server');
 });
 
-wsServer.listen(7009, function() {
-    console.log('websocket start listening at port 7009')
+wsSvr.listen(7009, function() {
+    console.log('websocket start listening at port 7009.')
 });
