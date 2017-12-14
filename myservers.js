@@ -14,6 +14,7 @@ const wsServer = require('ws').Server;
 //web server
 var webSvr = http.createServer(function(req, res) {
     res.writeHead(200, {'Content-Type':'text/plain'});
+    res.write('welcome to 91Mud, web content will show here later');
     res.end('I am web server');
 });
 
