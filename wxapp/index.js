@@ -10,6 +10,30 @@ Page({
   },
   onReady: function() {
     // Do something when page ready.
+  // websocket creation.
+  wx.connectSocket({
+    url: 'test.php'
+  })
+  wx.onSocketOpen(function(res){
+    console.log('WebSocket连接已打开！')
+  })
+  wx.onSocketError(function(res){
+    console.log('WebSocket连接打开失败，请检查！')
+  })
+  var sock = io.connect();
+  sock.on('stream', function(buf){
+    writeServerData(buf);
+  });
+  sock.on('status', function(str){
+    writeToScreen(str);
+  });
+  sock.on('connected', function(){
+    console.log('connected');
+  });
+  sock.on('disconnect', function(){
+    console.log('disconnected');
+  });  
+    
   },
   onShow: function() {
     // Do something when page show.
