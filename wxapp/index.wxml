@@ -1,1 +1,4 @@
-
+<view> {{ outString }} </view>
+<view class="section">
+  <input  bindconfirm="bindKeyInput" placeholder="Input cmd"/>
+</view>
