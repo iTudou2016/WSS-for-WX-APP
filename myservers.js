@@ -32,14 +32,15 @@ wsSvr.listen(7009, function() {
     console.log('websocket start listening at port 7009.')
 });
 
-const WebSocket = require('ws');
+var wss = new wsServer({
+	server: wsSvr
+});
 
-const wss = new WebSocket.Server({ port: 8080 });
+wss.on('connection', function(wsConnect) {
 
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message);
-  });
-
-  ws.send('something');
+    wsConnect.on('message', function(message) {
+        console.log(message);
+	console.log("hello again");
+        wsConnect.send('reply: ' + message);
+    });
 });
