@@ -3,7 +3,7 @@ const https = require('https');
 //const express = require('express');
 const fs = require('fs');
 const wsServer = require('ws').Server;
-//const wtproxy = require('./webtelnet-proxy.js');
+const wtproxy = require('./webtelnet-proxy.js');
 
 //const options = {
 //  key: fs.readFileSync('test/fixtures/keys/agent2-key.pem'),
@@ -55,3 +55,7 @@ wss.on('connection', function(wsConnect) {
         wsConnect.send('reply: ' + message);
     });
 });
+
+// create webtelnet proxy and bind to wss
+var mudproxy = wtproxy(wss, telnetconf.port, telnetconf.host);
+mudproxy.setCharset('gbk');
