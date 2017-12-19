@@ -38,6 +38,7 @@ function WebTelnetProxy(io, port, host) {
     this.reset();
     if(io) this.bind(io, port, host);
   } else {
+    console.log('new WebTelnetProxy');
     return new WebTelnetProxy(io, port, host);
   }
 }
@@ -57,6 +58,7 @@ WebTelnetProxy.prototype = {
     this.port = 23;
     this.host = '127.0.0.1';
     this.charset = '';
+    console.log('reset done.')
     return this;
   },
 
@@ -78,8 +80,10 @@ WebTelnetProxy.prototype = {
     proxy.port = port;
     proxy.host = host;
 
+    console.log('bind start')
     io.on('connection', function(sock){
       proxy.onConnected(sock);
+      sock.send("bind ok");
     });
 
     proxy.lastTick = Date.now();
@@ -90,7 +94,7 @@ WebTelnetProxy.prototype = {
     proxy.timer = setInterval(function(){
       proxy.tick();
     }, 1000);
-    
+    console.log('bind done')
     return this;
   },
 
@@ -127,14 +131,14 @@ WebTelnetProxy.prototype = {
 
     var telnet = net.connect( proxy.port, proxy.host, function() {
       if(proxy.logTraffic) console.log('telnet connected');
-      webSock.emit('status', 'Telnet connected.\n');
+      //webSock.emit('status', 'Telnet connected.\n');
+      webSock.send('Telnet connected.\n');
     });
 
     telnet.peerSock = webSock;
     webSock.peerSock = telnet;
 
     telnet.on('data', function(buf) {
-      //console.log('telnet: ', buf.toString());
       var peerSock = telnet.peerSock;
       if(peerSock) {
         if(proxy.charset && (proxy.charset !== 'utf8')) {
@@ -142,19 +146,21 @@ WebTelnetProxy.prototype = {
           console.log(buf);
           buf = unicodeStringToTypedArray(buf);
         }
+        console.log('buf log')
         var arrBuf = new ArrayBuffer(buf.length);
         var view = new Uint8Array(arrBuf);
         for(var i=0; i<buf.length; ++i) {
           view[i] = buf[i];
         }
-        peerSock.emit('stream', arrBuf);
+        //peerSock.emit('stream', arrBuf);
+        peerSock.send(arrBuf);
       }
     });
     telnet.on('error', function(){
     });
     telnet.on('close', function(){
       if(proxy.logTraffic) console.log('telnet disconnected');
-      webSock.emit('status', 'Telnet disconnected.\n');
+      webSock.send('Telnet disconnected.\n');
     });
     telnet.on('end', function(){
       var peerSock = telnet.peerSock;
@@ -167,9 +173,14 @@ WebTelnetProxy.prototype = {
 
   onConnected: function(webSock) {
     var proxy = this;
-
+    console.log('onConnected start')
+    webSock.send('onConnected begin')
     if(proxy.logTraffic) console.log('proxy client connected, socket id: ' + webSock.id);
-    webSock.on('stream', function(message) {
+
+   /* webSock.on('stream', function(message) {
+*/
+     webSock.on('message', function incoming(message) {
+      console.log(message);
       if(proxy.charset && (proxy.charset !== 'utf8')) {
         message = iconv.encode(message, proxy.charset);
       }
@@ -178,6 +189,7 @@ WebTelnetProxy.prototype = {
       if(peerSock) {
         peerSock.write(message);
       } else {
+        console.log('connectTelnet from onConnected')
         proxy.connectTelnet(webSock);
       }
     });
