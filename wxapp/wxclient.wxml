@@ -1,0 +1,6 @@
+<!--pages/wsclient/wsclient.wxml-->
+<scroll-view>{{ outString }}</scroll-view>
+
+<view class="section">
+  <input bindconfirm="bindKeyInput" placeholder="此处输入命令" focus="{{inputFocus}}" />
+</view>
