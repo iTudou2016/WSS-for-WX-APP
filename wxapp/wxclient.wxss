@@ -1,16 +1,24 @@
 /* pages/wsclient/wsclient.wxss */
+@import "../..//wxParse/wxParse.wxss"; 
 
-.outertext {
+.inputCmd {
   color: blue;
-  background-color: lightgrey
+  border: 1px;
 }
 
-.innertext {
-  color: green;
-  background-color: black
-
+.container1{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column
 }
 
-.button-hover {
-  background-color: red;
+
+.item1{
+    height:1000rpx;
+    color: green;
+    background-color:black;
+    border: 1px solid #fff;
+    flex-grow: 1
+
 }
