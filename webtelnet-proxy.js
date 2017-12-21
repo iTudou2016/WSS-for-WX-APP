@@ -81,9 +81,8 @@ WebTelnetProxy.prototype = {
     proxy.host = host;
 
     console.log('bind start')
-    io.on('connection', function(sock){
-      proxy.onConnected(sock);
-      sock.send("bind ok");
+    io.on('connection', function(webSock){
+      proxy.onConnected(webSock);
     });
 
     proxy.lastTick = Date.now();
