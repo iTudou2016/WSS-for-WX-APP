@@ -52,7 +52,7 @@ WebTelnetProxy.prototype = {
     this.timer = 0;
     this.lastTick = 0;
 
-    this.sockets = {};  // sid -> socket
+    this.sockets = {};
     this.socketsCount = 0;
     
     this.port = 23;
@@ -131,7 +131,6 @@ WebTelnetProxy.prototype = {
 
     var telnet = net.connect( proxy.port, proxy.host, function() {
       if(proxy.logTraffic) console.log('telnet connected');
-      //webSock.emit('status', 'Telnet connected.\n');
       webSock.send('Telnet connected.\n');
     });
 
@@ -146,17 +145,16 @@ WebTelnetProxy.prototype = {
           console.log(buf);
           buf = unicodeStringToTypedArray(buf);
         }
-        console.log('buf log')
         var arrBuf = new ArrayBuffer(buf.length);
         var view = new Uint8Array(arrBuf);
         for(var i=0; i<buf.length; ++i) {
           view[i] = buf[i];
         }
-        //peerSock.emit('stream', arrBuf);
         peerSock.send(arrBuf);
       }
     });
     telnet.on('error', function(){
+      webSock.send('Telnet error');
     });
     telnet.on('close', function(){
       if(proxy.logTraffic) console.log('telnet disconnected');
@@ -173,18 +171,15 @@ WebTelnetProxy.prototype = {
 
   onConnected: function(webSock) {
     var proxy = this;
-    console.log('onConnected start')
-    webSock.send('onConnected begin')
+    console.log('onConnected start');
+    webSock.send('onConnected begin');
+      
     if(proxy.logTraffic) console.log('proxy client connected, socket id: ' + webSock.id);
-
-   /* webSock.on('stream', function(message) {
-*/
-     webSock.on('message', function incoming(message) {
+    webSock.on('message', function incoming(message) {
       console.log(message);
       if(proxy.charset && (proxy.charset !== 'utf8')) {
         message = iconv.encode(message, proxy.charset);
       }
-      //console.log('websocket: ', message);
       var peerSock = webSock.peerSock;
       if(peerSock) {
         peerSock.write(message);
@@ -192,16 +187,16 @@ WebTelnetProxy.prototype = {
         console.log('connectTelnet from onConnected')
         proxy.connectTelnet(webSock);
       }
-    });
+     });
 
-    webSock.on('disconnect', function(){
-      if(proxy.logTraffic) console.log('proxy client disconnected, socket id: ' + webSock.id);
-      proxy.onDisconnected(webSock);
-    });
+     webSock.on('disconnect', function(){
+       if(proxy.logTraffic) console.log('proxy client disconnected, socket id: ' + webSock.id);
+       proxy.onDisconnected(webSock);
+     });
 
-    proxy.sockets[webSock.id] = webSock;
-    proxy.socketsCount ++;
-  },
+     proxy.sockets[webSock.id] = webSock;
+     proxy.socketsCount ++;
+   },
 };
 
 exports = module.exports = WebTelnetProxy;
