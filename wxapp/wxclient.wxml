@@ -1,6 +1,11 @@
 <!--pages/wsclient/wsclient.wxml-->
-<scroll-view>{{ outString }}</scroll-view>
 
-<view class="section">
-  <input bindconfirm="bindKeyInput" placeholder="此处输入命令" focus="{{inputFocus}}" />
-</view>
+<view class="container1">
+  <scroll-view scroll-y style="height: 1000rpx" scroll-top="{{scrolltop}}" class="item1">
+
+    <textarea auto-height >{{ outString }} </textarea>
+ 
+ </scroll-view>
+  <input class="inputCmd" bindconfirm="bindKeyInput" value="{{inputValue}}" focus="{{inputFocus}}" />
+
+ </view>
