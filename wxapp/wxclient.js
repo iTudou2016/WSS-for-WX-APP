@@ -104,10 +104,11 @@ writeServerData: function (buf) {
       if (len >= 2 && line.substr(len - 2) == '> ') line = line.substr(0, line - 2) + '<br/>';
 
       //line = ansi_up.ansi_to_html(line);
+      nodes = this.data.nodes.children.push(ansi_up.ansi_to_html(line));
       //此处返回array，具有children格式；然后append到nodes数组中children下。
       this.setData({
         //outString: this.data.outString + str
-        nodes: this.data.nodes.children.push(ansi_up.ansi_to_html(line));
+        nodes: nodes;
       });
       
       //this.writeToScreen(line);
