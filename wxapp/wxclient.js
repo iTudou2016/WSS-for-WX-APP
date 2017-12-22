@@ -103,7 +103,38 @@ writeServerData: function (buf) {
       if (len >= 2 && line.substr(len - 2) == '> ') line = line.substr(0, line - 2) + '<br/>';
 
       line = ansi_up.ansi_to_html(line);
-
+      //此处返回array，具有children格式；然后append到nodes数组中children下。
+      /×
+          nodes2: [{
+      name: "ul",
+      attrs: {
+        style: "padding:20px;border:1px solid blue;",
+        class: "red"
+      },
+      children: [
+        {
+          name: "li",
+          attrs: {
+            style: "color:red",
+            class: "red"
+          },
+          children: [{
+            type: "text",
+            text: '多层结点 无序列表'
+          }],
+        }, {
+          name: "li",
+          attrs: {
+            style: "color:red",
+            class: "red"
+          },
+          children: [{
+            type: "text",
+            text: '多层结点 无序列表1'
+          }],
+        }]
+    }]
+      ×/
       this.writeToScreen(line);
     }
   },
