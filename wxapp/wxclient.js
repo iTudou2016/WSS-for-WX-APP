@@ -6,6 +6,7 @@ Page({
   
   data: {
     outString: "This is page data.",
+    nodes: [],
     inputValue: "",
     inputFocus: true,    
     scrolltop: 10
