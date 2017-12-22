@@ -274,11 +274,32 @@
             styles.push("background-color:rgb(" + self.bg + ")");
           }
         }
-        if (use_classes) {
+ /*
+          if (use_classes) {
           return '<span class="' + classes.join(' ') + '"' + render_data.call(self, data) + '>' + orig_txt + '</span>';
         } else {
           return '<span style="' + styles.join(';') + '"' + render_data.call(self, data) + '>' + orig_txt + '</span>';
-        }
+        }      
+  */
+        if (use_classes) {
+          //返回的是对象{}，还是数组[]？也许对象更合适。
+          var htmlline = {
+            name: "span",
+            attrs: {
+              style: render_data.call(self, data),
+              class: classes.join(' ')
+            },
+            children: [{
+              type: "text",
+              text: orig_txt
+            }],
+          };       
+          return htmlline;
+          //return '<span class="' + classes.join(' ') + '"' + render_data.call(self, data) + '>' + orig_txt + '</span>';
+        } else {
+          return '<span style="' + styles.join(';') + '"' + render_data.call(self, data) + '>' + orig_txt + '</span>';
+        }  
+
       }
     };
 
