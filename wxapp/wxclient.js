@@ -1,5 +1,5 @@
 // pages/wsclient/wsclient.js
-
+// http://blog.csdn.net/xiaochun365/article/details/75039742
 var ansi_up = require('ansi_up.js');
 
 Page({
