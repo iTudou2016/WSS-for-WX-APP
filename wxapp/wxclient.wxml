@@ -1,11 +1,10 @@
 <!--pages/wsclient/wsclient.wxml-->
-
-<view class="container1">
-  <scroll-view scroll-y style="height: 1000rpx" scroll-top="{{scrolltop}}" class="item1">
-
-    <textarea auto-height >{{ outString }} </textarea>
- 
- </scroll-view>
-  <input class="inputCmd" bindconfirm="bindKeyInput" value="{{inputValue}}" focus="{{inputFocus}}" />
-
- </view>
+<view class="container">
+  <scroll-view class="richText" scroll-y="true" scroll-into-view="{{toView}}">
+    <rich-text nodes="{{nodes}}"></rich-text>
+    <view id="ends"></view>
+  </scroll-view>
+  <view class="inputCmd">
+    <input bindconfirm="bindKeyInput" value="{{inputValue}}" focus="{{inputFocus}}" />
+  </view>
+</view>
