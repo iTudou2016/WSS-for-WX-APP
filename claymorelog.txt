@@ -1,0 +1,794 @@
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.037 Mh/s, Total Shares: 47(2+8+4+6+7+1+2+3+6+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:16
+ETH: GPU0 13.577 Mh/s, GPU1 27.913 Mh/s, GPU2 25.110 Mh/s, GPU3 21.860 Mh/s, GPU4 21.645 Mh/s, GPU5 13.087 Mh/s, GPU6 10.691 Mh/s, GPU7 11.910 Mh/s, GPU8 26.226 Mh/s, GPU9 24.133 Mh/s, GPU10 11.772 Mh/s, GPU11 10.113 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.693 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=49C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 217.899 Mh/s, Total Shares: 47(2+8+4+6+7+1+2+3+6+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:16
+ETH: GPU0 13.542 Mh/s, GPU1 27.967 Mh/s, GPU2 25.102 Mh/s, GPU3 21.858 Mh/s, GPU4 21.607 Mh/s, GPU5 13.092 Mh/s, GPU6 10.692 Mh/s, GPU7 11.899 Mh/s, GPU8 26.220 Mh/s, GPU9 24.094 Mh/s, GPU10 11.764 Mh/s, GPU11 10.060 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.695 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+ETH: 02/27/18-23:14:55 - SHARE FOUND - (GPU 8)
+ETH: Share accepted (51 ms)!
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+ETH: 02/27/18-23:14:57 - SHARE FOUND - (GPU 4)
+ETH: Share accepted (42 ms)!
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.063 Mh/s, Total Shares: 49(2+8+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:16
+ETH: GPU0 13.569 Mh/s, GPU1 27.977 Mh/s, GPU2 25.134 Mh/s, GPU3 21.863 Mh/s, GPU4 21.641 Mh/s, GPU5 13.097 Mh/s, GPU6 10.692 Mh/s, GPU7 11.867 Mh/s, GPU8 26.228 Mh/s, GPU9 24.124 Mh/s, GPU10 11.751 Mh/s, GPU11 10.120 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.710 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+ETH: 02/27/18-23:14:58 - SHARE FOUND - (GPU 1)
+ETH: Share accepted (43 ms)!
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.224 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.581 Mh/s, GPU1 27.988 Mh/s, GPU2 25.117 Mh/s, GPU3 21.891 Mh/s, GPU4 21.640 Mh/s, GPU5 13.112 Mh/s, GPU6 10.702 Mh/s, GPU7 11.922 Mh/s, GPU8 26.315 Mh/s, GPU9 24.139 Mh/s, GPU10 11.710 Mh/s, GPU11 10.107 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.704 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.034 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.571 Mh/s, GPU1 27.933 Mh/s, GPU2 25.128 Mh/s, GPU3 21.873 Mh/s, GPU4 21.629 Mh/s, GPU5 13.096 Mh/s, GPU6 10.700 Mh/s, GPU7 11.905 Mh/s, GPU8 26.218 Mh/s, GPU9 24.102 Mh/s, GPU10 11.757 Mh/s, GPU11 10.122 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.714 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.060 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.571 Mh/s, GPU1 27.964 Mh/s, GPU2 25.115 Mh/s, GPU3 21.861 Mh/s, GPU4 21.596 Mh/s, GPU5 13.095 Mh/s, GPU6 10.696 Mh/s, GPU7 11.902 Mh/s, GPU8 26.258 Mh/s, GPU9 24.108 Mh/s, GPU10 11.771 Mh/s, GPU11 10.123 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.698 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 217.931 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.555 Mh/s, GPU1 27.945 Mh/s, GPU2 25.130 Mh/s, GPU3 21.885 Mh/s, GPU4 21.623 Mh/s, GPU5 13.093 Mh/s, GPU6 10.692 Mh/s, GPU7 11.900 Mh/s, GPU8 26.228 Mh/s, GPU9 24.001 Mh/s, GPU10 11.760 Mh/s, GPU11 10.119 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.710 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.027 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.566 Mh/s, GPU1 27.956 Mh/s, GPU2 25.076 Mh/s, GPU3 21.844 Mh/s, GPU4 21.632 Mh/s, GPU5 13.078 Mh/s, GPU6 10.684 Mh/s, GPU7 11.905 Mh/s, GPU8 26.308 Mh/s, GPU9 24.125 Mh/s, GPU10 11.777 Mh/s, GPU11 10.077 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.719 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=47C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.092 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.567 Mh/s, GPU1 27.988 Mh/s, GPU2 25.103 Mh/s, GPU3 21.895 Mh/s, GPU4 21.613 Mh/s, GPU5 13.096 Mh/s, GPU6 10.697 Mh/s, GPU7 11.913 Mh/s, GPU8 26.213 Mh/s, GPU9 24.115 Mh/s, GPU10 11.774 Mh/s, GPU11 10.118 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.712 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=49C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 217.944 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.571 Mh/s, GPU1 27.922 Mh/s, GPU2 25.084 Mh/s, GPU3 21.855 Mh/s, GPU4 21.609 Mh/s, GPU5 13.089 Mh/s, GPU6 10.692 Mh/s, GPU7 11.903 Mh/s, GPU8 26.203 Mh/s, GPU9 24.131 Mh/s, GPU10 11.759 Mh/s, GPU11 10.126 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.720 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=44C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.015 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.566 Mh/s, GPU1 27.959 Mh/s, GPU2 25.122 Mh/s, GPU3 21.876 Mh/s, GPU4 21.636 Mh/s, GPU5 13.054 Mh/s, GPU6 10.699 Mh/s, GPU7 11.893 Mh/s, GPU8 26.218 Mh/s, GPU9 24.099 Mh/s, GPU10 11.772 Mh/s, GPU11 10.121 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.690 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=47C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.067 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.573 Mh/s, GPU1 27.966 Mh/s, GPU2 25.094 Mh/s, GPU3 21.876 Mh/s, GPU4 21.630 Mh/s, GPU5 13.092 Mh/s, GPU6 10.684 Mh/s, GPU7 11.907 Mh/s, GPU8 26.254 Mh/s, GPU9 24.109 Mh/s, GPU10 11.767 Mh/s, GPU11 10.116 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.678 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=49C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.101 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.580 Mh/s, GPU1 27.992 Mh/s, GPU2 25.133 Mh/s, GPU3 21.888 Mh/s, GPU4 21.643 Mh/s, GPU5 13.036 Mh/s, GPU6 10.706 Mh/s, GPU7 11.918 Mh/s, GPU8 26.247 Mh/s, GPU9 24.046 Mh/s, GPU10 11.783 Mh/s, GPU11 10.128 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.678 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=45C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.024 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.577 Mh/s, GPU1 27.962 Mh/s, GPU2 25.083 Mh/s, GPU3 21.875 Mh/s, GPU4 21.614 Mh/s, GPU5 13.084 Mh/s, GPU6 10.691 Mh/s, GPU7 11.912 Mh/s, GPU8 26.216 Mh/s, GPU9 24.112 Mh/s, GPU10 11.777 Mh/s, GPU11 10.122 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.719 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=47C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.006 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.577 Mh/s, GPU1 27.941 Mh/s, GPU2 25.119 Mh/s, GPU3 21.873 Mh/s, GPU4 21.634 Mh/s, GPU5 13.086 Mh/s, GPU6 10.680 Mh/s, GPU7 11.897 Mh/s, GPU8 26.191 Mh/s, GPU9 24.122 Mh/s, GPU10 11.774 Mh/s, GPU11 10.112 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.723 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=47C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+ETH: 02/27/18-23:15:36 - New job from eth.f2pool.com:8008
+ETH - Total Speed: 218.003 Mh/s, Total Shares: 50, Rejected: 0, Time: 00:17
+ETH: GPU0 13.568 Mh/s, GPU1 27.941 Mh/s, GPU2 25.098 Mh/s, GPU3 21.873 Mh/s, GPU4 21.634 Mh/s, GPU5 13.096 Mh/s, GPU6 10.686 Mh/s, GPU7 11.897 Mh/s, GPU8 26.191 Mh/s, GPU9 24.126 Mh/s, GPU10 11.774 Mh/s, GPU11 10.119 Mh/s
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 216.286 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.568 Mh/s, GPU1 27.970 Mh/s, GPU2 25.111 Mh/s, GPU3 21.866 Mh/s, GPU4 21.649 Mh/s, GPU5 13.098 Mh/s, GPU6 10.685 Mh/s, GPU7 11.913 Mh/s, GPU8 26.305 Mh/s, GPU9 24.119 Mh/s, GPU10 11.767 Mh/s, GPU11 8.233 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.696 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=46C fan=83%
+
+ETH: Stratum - Cannot connect to us1.ethermine.org:4444
+DevFee: ETH: Stratum - Failed to connect, retry in 20 sec...
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.019 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.573 Mh/s, GPU1 27.975 Mh/s, GPU2 25.072 Mh/s, GPU3 21.864 Mh/s, GPU4 21.637 Mh/s, GPU5 13.092 Mh/s, GPU6 10.694 Mh/s, GPU7 11.901 Mh/s, GPU8 26.208 Mh/s, GPU9 24.119 Mh/s, GPU10 11.767 Mh/s, GPU11 10.117 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.697 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.123 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.574 Mh/s, GPU1 27.967 Mh/s, GPU2 25.115 Mh/s, GPU3 21.874 Mh/s, GPU4 21.644 Mh/s, GPU5 13.107 Mh/s, GPU6 10.692 Mh/s, GPU7 11.902 Mh/s, GPU8 26.227 Mh/s, GPU9 24.138 Mh/s, GPU10 11.763 Mh/s, GPU11 10.121 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.755 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=49C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 217.945 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.566 Mh/s, GPU1 27.931 Mh/s, GPU2 25.092 Mh/s, GPU3 21.868 Mh/s, GPU4 21.621 Mh/s, GPU5 13.095 Mh/s, GPU6 10.689 Mh/s, GPU7 11.911 Mh/s, GPU8 26.186 Mh/s, GPU9 24.115 Mh/s, GPU10 11.757 Mh/s, GPU11 10.114 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.722 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=42C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+ETH: 02/27/18-23:15:50 - New job from eth.f2pool.com:8008
+ETH - Total Speed: 217.938 Mh/s, Total Shares: 50, Rejected: 0, Time: 00:17
+ETH: GPU0 13.557 Mh/s, GPU1 27.951 Mh/s, GPU2 25.088 Mh/s, GPU3 21.861 Mh/s, GPU4 21.609 Mh/s, GPU5 13.079 Mh/s, GPU6 10.687 Mh/s, GPU7 11.904 Mh/s, GPU8 26.238 Mh/s, GPU9 24.104 Mh/s, GPU10 11.746 Mh/s, GPU11 10.113 Mh/s
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 217.960 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.554 Mh/s, GPU1 27.943 Mh/s, GPU2 25.087 Mh/s, GPU3 21.872 Mh/s, GPU4 21.626 Mh/s, GPU5 13.076 Mh/s, GPU6 10.689 Mh/s, GPU7 11.902 Mh/s, GPU8 26.213 Mh/s, GPU9 24.117 Mh/s, GPU10 11.753 Mh/s, GPU11 10.128 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.732 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+ETH: 02/27/18-23:15:54 - New job from eth.f2pool.com:8008
+ETH - Total Speed: 217.999 Mh/s, Total Shares: 50, Rejected: 0, Time: 00:17
+ETH: GPU0 13.560 Mh/s, GPU1 27.969 Mh/s, GPU2 25.043 Mh/s, GPU3 21.859 Mh/s, GPU4 21.635 Mh/s, GPU5 13.087 Mh/s, GPU6 10.698 Mh/s, GPU7 11.906 Mh/s, GPU8 26.223 Mh/s, GPU9 24.126 Mh/s, GPU10 11.767 Mh/s, GPU11 10.124 Mh/s
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 4059 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 4059 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 4059 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 218.246 Mh/s, Total Shares: 50(2+9+4+6+8+1+2+3+7+5+1+2), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:17
+ETH: GPU0 13.588 Mh/s, GPU1 27.996 Mh/s, GPU2 25.127 Mh/s, GPU3 21.887 Mh/s, GPU4 21.606 Mh/s, GPU5 13.110 Mh/s, GPU6 10.704 Mh/s, GPU7 11.920 Mh/s, GPU8 26.253 Mh/s, GPU9 24.135 Mh/s, GPU10 11.787 Mh/s, GPU11 10.134 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 217.731 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+
+GPU0 t=45C fan=83%, GPU1 t=56C fan=83%, GPU2 t=36C fan=83%, GPU3 t=48C fan=83%, GPU4 t=43C fan=83%, GPU5 t=50C fan=83%, GPU6 t=44C fan=83%, GPU7 t=50C fan=83%, GPU8 t=49C fan=83%, GPU9 t=41C fan=83%, GPU10 t=44C fan=83%, GPU11 t=47C fan=83%
+Miner thread hangs, need to restart miner!
+Quit, please wait...
+ss
+����������������������������������������������������������������ͻ
+�                Claymore's Dual GPU Miner - v11.0               �
+�              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             �
+����������������������������������������������������������������ͼ
+
+ETH: 2 pools are specified
+Main Ethereum pool is eth.f2pool.com:8008
+DCR: 0 pool is specified
+At least 16 GB of Virtual Memory is required for multi-GPU systems
+Make sure you defined GPU_MAX_ALLOC_PERCENT 100
+Be careful with overclocking, use default clocks for first tests
+Press "s" for current statistics, "0".."9" to turn on/off cards, "r" to reload pools, "e" or "d" to select current pool 
+OpenCL initializing...
+
+AMD Cards available: 12 
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #0 recognized as Radeon RX 460/560
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #1 recognized as Radeon RX 480/580
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #2 recognized as Radeon RX 470/570
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #3 recognized as Radeon RX 470/570
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #4 recognized as Radeon RX 470/570
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #5 recognized as Radeon RX 460/560
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #6 recognized as Radeon RX 460/560
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #7 recognized as Radeon RX 460/560
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #8 recognized as Radeon RX 470/570
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #9 recognized as Radeon RX 470/570
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #10 recognized as Radeon RX 460/560
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+GPU #11 recognized as Radeon RX 460/560
+POOL/SOLO version
+sGPU #0: algorithm ASM
+GPU #1: algorithm ASM
+GPU #2: algorithm ASM
+GPU #3: algorithm ASM
+GPU #4: algorithm ASM
+GPU #5: algorithm ASM
+GPU #6: algorithm ASM
+GPU #7: algorithm ASM
+GPU #8: algorithm ASM
+GPU #9: algorithm ASM
+GPU #10: algorithm ASM
+GPU #11: algorithm ASM
+No NVIDIA CUDA GPUs detected.
+Total cards: 12 
+
+Some GPUs (6) are 2GB and some (6) are not, developer fee will not be mined on 2GB GPUs, so devfee will be mined on 6 cards of 12.
+See Readme for details.
+
+AMD ADL library not found.
+ETH: Stratum - connecting to 'eth.f2pool.com' <116.211.169.162> port 8008
+No pool specified for Decred! Ethereum-only mining mode is enabled
+ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+ETH: eth-proxy stratum mode
+"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+Watchdog disabled
+Remote management (READ-ONLY MODE) is enabled on port 3333
+
+ETH: Stratum - Connected (eth.f2pool.com:8008)
+ETH: Authorized
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+GPU0 t=34C fan=83%, GPU1 t=39C fan=83%, GPU2 t=26C fan=83%, GPU3 t=36C fan=83%, GPU4 t=31C fan=83%, GPU5 t=38C fan=83%, GPU6 t=32C fan=83%, GPU7 t=38C fan=83%, GPU8 t=33C fan=83%, GPU9 t=32C fan=83%, GPU10 t=34C fan=83%, GPU11 t=37C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+GPU0 t=34C fan=83%, GPU1 t=39C fan=83%, GPU2 t=26C fan=83%, GPU3 t=36C fan=83%, GPU4 t=31C fan=83%, GPU5 t=38C fan=83%, GPU6 t=32C fan=83%, GPU7 t=38C fan=83%, GPU8 t=33C fan=83%, GPU9 t=32C fan=83%, GPU10 t=33C fan=83%, GPU11 t=37C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=34C fan=83%, GPU1 t=39C fan=83%, GPU2 t=26C fan=83%, GPU3 t=36C fan=83%, GPU4 t=31C fan=83%, GPU5 t=38C fan=83%, GPU6 t=32C fan=83%, GPU7 t=38C fan=83%, GPU8 t=33C fan=83%, GPU9 t=32C fan=83%, GPU10 t=33C fan=83%, GPU11 t=37C fan=83%
+
+Setting DAG epoch #172...
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=34C fan=83%, GPU1 t=38C fan=83%, GPU2 t=26C fan=83%, GPU3 t=35C fan=83%, GPU4 t=31C fan=83%, GPU5 t=38C fan=83%, GPU6 t=32C fan=83%, GPU7 t=38C fan=83%, GPU8 t=33C fan=83%, GPU9 t=32C fan=83%, GPU10 t=33C fan=83%, GPU11 t=37C fan=83%
+
+Setting DAG epoch #172 for GPU2
+Create GPU buffer for GPU2
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=33C fan=83%, GPU1 t=37C fan=83%, GPU2 t=25C fan=83%, GPU3 t=35C fan=83%, GPU4 t=30C fan=83%, GPU5 t=37C fan=83%, GPU6 t=31C fan=83%, GPU7 t=37C fan=83%, GPU8 t=32C fan=83%, GPU9 t=31C fan=83%, GPU10 t=32C fan=83%, GPU11 t=36C fan=83%
+
+ETH: 02/27/18-23:16:13 - New job from eth.f2pool.com:8008
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=33C fan=83%, GPU1 t=36C fan=83%, GPU2 t=25C fan=83%, GPU3 t=34C fan=83%, GPU4 t=29C fan=83%, GPU5 t=37C fan=83%, GPU6 t=30C fan=83%, GPU7 t=36C fan=83%, GPU8 t=31C fan=83%, GPU9 t=30C fan=83%, GPU10 t=31C fan=83%, GPU11 t=36C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=32C fan=83%, GPU1 t=35C fan=83%, GPU2 t=27C fan=83%, GPU3 t=33C fan=83%, GPU4 t=28C fan=83%, GPU5 t=36C fan=83%, GPU6 t=30C fan=83%, GPU7 t=35C fan=83%, GPU8 t=30C fan=83%, GPU9 t=29C fan=83%, GPU10 t=31C fan=83%, GPU11 t=35C fan=83%
+
+ETH: 02/27/18-23:16:19 - New job from eth.f2pool.com:8008
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=32C fan=83%, GPU1 t=34C fan=83%, GPU2 t=27C fan=83%, GPU3 t=32C fan=83%, GPU4 t=27C fan=83%, GPU5 t=35C fan=83%, GPU6 t=29C fan=83%, GPU7 t=35C fan=83%, GPU8 t=29C fan=83%, GPU9 t=28C fan=83%, GPU10 t=30C fan=83%, GPU11 t=34C fan=83%
+
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=31C fan=83%, GPU1 t=33C fan=83%, GPU2 t=27C fan=83%, GPU3 t=31C fan=83%, GPU4 t=27C fan=83%, GPU5 t=35C fan=83%, GPU6 t=29C fan=83%, GPU7 t=34C fan=83%, GPU8 t=29C fan=83%, GPU9 t=28C fan=83%, GPU10 t=30C fan=83%, GPU11 t=33C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=31C fan=83%, GPU1 t=32C fan=83%, GPU2 t=27C fan=83%, GPU3 t=31C fan=83%, GPU4 t=26C fan=83%, GPU5 t=34C fan=83%, GPU6 t=29C fan=83%, GPU7 t=34C fan=83%, GPU8 t=28C fan=83%, GPU9 t=27C fan=83%, GPU10 t=29C fan=83%, GPU11 t=33C fan=83%
+
+
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=30C fan=83%, GPU1 t=31C fan=83%, GPU2 t=27C fan=83%, GPU3 t=30C fan=83%, GPU4 t=26C fan=83%, GPU5 t=34C fan=83%, GPU6 t=28C fan=83%, GPU7 t=33C fan=83%, GPU8 t=28C fan=83%, GPU9 t=27C fan=83%, GPU10 t=28C fan=83%, GPU11 t=32C fan=83%
+
+GPU0 t=30C fan=83%, GPU1 t=31C fan=83%, GPU2 t=27C fan=83%, GPU3 t=30C fan=83%, GPU4 t=25C fan=83%, GPU5 t=33C fan=83%, GPU6 t=28C fan=83%, GPU7 t=33C fan=83%, GPU8 t=27C fan=83%, GPU9 t=26C fan=83%, GPU10 t=28C fan=83%, GPU11 t=32C fan=83%
+s
+GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 1511 MB available, 16 compute units (pci bus 1:0:0)
+GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 5594 MB available, 36 compute units (pci bus 2:0:0)
+GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 3:0:0)
+GPU #3: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 4:0:0)
+GPU #4: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 5:0:0)
+GPU #5: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 7:0:0)
+GPU #6: Baffin (AMD Radeon (TM) RX 560 Graphics), 1514 MB available, 14 compute units (pci bus 8:0:0)
+GPU #7: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 9:0:0)
+GPU #8: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 10:0:0)
+GPU #9: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 1514 MB available, 32 compute units (pci bus 11:0:0)
+GPU #10: Baffin (AMD Radeon Graphics), 1514 MB available, 16 compute units (pci bus 12:0:0)
+GPU #11: Baffin (AMD Radeon (TM) RX Graphics), 1514 MB available, 14 compute units (pci bus 13:0:0)
+ETH - Total Speed: 0.000 Mh/s, Total Shares: 0(0+0+0+0+0+0+0+0+0+0+0+0), Rejected: 0(0+0+0+0+0+0+0+0+0+0+0+0), Time: 00:00
+ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s, GPU2 0.000 Mh/s, GPU3 0.000 Mh/s, GPU4 0.000 Mh/s, GPU5 0.000 Mh/s, GPU6 0.000 Mh/s, GPU7 0.000 Mh/s, GPU8 0.000 Mh/s, GPU9 0.000 Mh/s, GPU10 0.000 Mh/s, GPU11 0.000 Mh/s
+Incorrect ETH shares: none
+1 minute average ETH total speed: 0.000 Mh/s
+Pool switches: ETH - 0
+Current ETH share target: 0x00000000ffffffff (diff: 4294MH), epoch 172(2.34GB)
+GPU0 t=30C fan=83%, GPU1 t=31C fan=83%, GPU2 t=27C fan=83%, GPU3 t=30C fan=83%, GPU4 t=25C fan=83%, GPU5 t=33C fan=83%, GPU6 t=27C fan=83%, GPU7 t=33C fan=83%, GPU8 t=27C fan=83%, GPU9 t=26C fan=83%, GPU10 t=28C fan=83%, GPU11 t=32C fan=83%
+
+
