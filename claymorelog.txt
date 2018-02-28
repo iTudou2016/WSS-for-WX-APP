@@ -1,3 +1,6 @@
+
+
+
 GPU #0: Baffin (AMD Radeon (TM) RX 460 Graphics), 4056 MB available, 16 compute units (pci bus 1:0:0)
 GPU #1: Ellesmere (AMD Radeon (TM) RX 480 Graphics), 8139 MB available, 36 compute units (pci bus 2:0:0)
 GPU #2: Ellesmere (AMD Radeon (TM) RX 470 Graphics), 4059 MB available, 32 compute units (pci bus 3:0:0)
